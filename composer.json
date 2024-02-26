@@ -1,0 +1,16 @@
+{
+    "require": {
+        "symfony/console": "^4.2",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require-dev": {
+        "phpspec/prophecy": "^1.13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pdpaola\\CoffeeMachine\\": "src",
+            "Pdpaola\\CoffeeMachine\\Tests\\Unit\\": "tests/Unit",
+            "Pdpaola\\CoffeeMachine\\Tests\\Integration\\": "tests/Integration"
+        }
+    }
+}
